@@ -1,21 +1,36 @@
-1. write a program to findout 
-2. write a program to chek given substring is there in actual string or not? (search should be case insensitive)
-3. take a number from the user and check whether even or odd
-4. take a number from the user and check whether it is prime?
-5. take a string from the user and check contains only digits or not?
-6. take a string from the user and check contains only  alphabets or not?
-7. take a string from the user and check contains only  special chars or not?
-8. take a string from the user and check contains only  capiatl letters or not?
-9. take a string from the user and check contains only  small letters or not?
-10. Show the below menu to the user until and until user select quit and display corresponding os message
+1. write a program to chek given substring is there in actual string or not? (search should be case insensitive)
+2. take a number from the user and check whether even or odd
+3. take a number from the user and check whether it is prime?
+4. take a string from the user and check contains only digits or not?
+5. take a string from the user and check contains only  alphabets or not?
+6. take a string from the user and check contains only  special chars or not?
+7. take a string from the user and check contains only  capiatl letters or not?
+8. take a string from the user and check contains only  small letters or not?
+9. Show the below menu to the user until and until user select quit and display corresponding os message
 
-'''
+10.'''
 Menu:
 1. windows
 2. Linux
 3. Mac
 4. quit
 '''
+o/p
+option = 1
+windows selected
+Menu:
+1. windows
+2. Linux
+3. Mac
+4. quit
+option=2
+linux seleted
+Menu:
+1. windows
+2. Linux
+3. Mac
+4. quit
+option=4
 
 11. take a string from the user and check contains atleast one digit or not?
 12. take a string from the user and check contains atleast one alphabets or not?
