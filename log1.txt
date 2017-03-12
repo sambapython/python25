@@ -1,0 +1,241 @@
+2017-03-12 11:33:08,864->INFO->a=12
+2017-03-12 11:33:08,864->DEBUG->res=0.833333333333
+2017-03-12 11:33:22,209->INFO->a=wer
+2017-03-12 11:33:22,210->WARNING->May get exception for the value: wer
+2017-03-12 11:33:22,210->ERROR->could not convert string to float: wer
+Traceback (most recent call last):
+  File "app_log.py", line 9, in <module>
+    res=10/float(a)
+ValueError: could not convert string to float: wer
+2017-03-12 11:59:15,381->DEBUG->starting thread (client mode): 0x86d1a050L
+2017-03-12 11:59:15,382->DEBUG->Local version/idstring: SSH-2.0-paramiko_1.16.0
+2017-03-12 11:59:15,399->DEBUG->Remote version/idstring: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+2017-03-12 11:59:15,399->INFO->Connected (version 2.0, client OpenSSH_7.2p2)
+2017-03-12 11:59:15,403->DEBUG->kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group14-sha1'] server key:[u'ssh-rsa', u'rsa-sha2-512', u'rsa-sha2-256', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] server encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] client mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] server mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2017-03-12 11:59:15,403->DEBUG->Kex agreed: diffie-hellman-group14-sha1
+2017-03-12 11:59:15,404->DEBUG->Cipher agreed: aes128-ctr
+2017-03-12 11:59:15,404->DEBUG->MAC agreed: hmac-sha2-256
+2017-03-12 11:59:15,404->DEBUG->Compression agreed: none
+2017-03-12 11:59:15,561->DEBUG->kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+2017-03-12 11:59:15,565->DEBUG->Switch to new keys ...
+2017-03-12 11:59:15,574->DEBUG->Adding ssh-rsa host key for localhost: 781269837a8009850fb80e25d321f62a
+2017-03-12 11:59:15,600->DEBUG->userauth is OK
+2017-03-12 11:59:15,657->INFO->Authentication (password) successful!
+2017-03-12 11:59:15,677->DEBUG->[chan 0] Max packet in: 32768 bytes
+2017-03-12 11:59:15,814->DEBUG->Received global request "hostkeys-00@openssh.com"
+2017-03-12 11:59:15,815->DEBUG->Rejecting "hostkeys-00@openssh.com" global request from server.
+2017-03-12 11:59:15,853->DEBUG->[chan 0] Max packet out: 32768 bytes
+2017-03-12 11:59:15,853->DEBUG->Secsh channel 0 opened.
+2017-03-12 11:59:15,882->DEBUG->[chan 0] Sesch channel 0 request ok
+2017-03-12 11:59:15,882->INFO->running command: ps -aux
+2017-03-12 11:59:32,941->DEBUG->starting thread (client mode): 0xd48a0050L
+2017-03-12 11:59:32,941->DEBUG->Local version/idstring: SSH-2.0-paramiko_1.16.0
+2017-03-12 11:59:32,949->DEBUG->Remote version/idstring: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+2017-03-12 11:59:32,949->INFO->Connected (version 2.0, client OpenSSH_7.2p2)
+2017-03-12 11:59:32,952->DEBUG->kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group14-sha1'] server key:[u'ssh-rsa', u'rsa-sha2-512', u'rsa-sha2-256', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] server encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com'] client mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] server mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2017-03-12 11:59:32,952->DEBUG->Kex agreed: diffie-hellman-group14-sha1
+2017-03-12 11:59:32,952->DEBUG->Cipher agreed: aes128-ctr
+2017-03-12 11:59:32,952->DEBUG->MAC agreed: hmac-sha2-256
+2017-03-12 11:59:32,952->DEBUG->Compression agreed: none
+2017-03-12 11:59:33,105->DEBUG->kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+2017-03-12 11:59:33,106->DEBUG->Switch to new keys ...
+2017-03-12 11:59:33,110->DEBUG->Adding ssh-rsa host key for localhost: 781269837a8009850fb80e25d321f62a
+2017-03-12 11:59:33,141->DEBUG->userauth is OK
+2017-03-12 11:59:33,181->INFO->Authentication (password) successful!
+2017-03-12 11:59:33,185->DEBUG->[chan 0] Max packet in: 32768 bytes
+2017-03-12 11:59:33,296->DEBUG->Received global request "hostkeys-00@openssh.com"
+2017-03-12 11:59:33,297->DEBUG->Rejecting "hostkeys-00@openssh.com" global request from server.
+2017-03-12 11:59:33,336->DEBUG->[chan 0] Max packet out: 32768 bytes
+2017-03-12 11:59:33,336->DEBUG->Secsh channel 0 opened.
+2017-03-12 11:59:33,356->DEBUG->[chan 0] Sesch channel 0 request ok
+2017-03-12 11:59:33,357->INFO->running command: ps -aux
+2017-03-12 11:59:33,438->DEBUG->USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1 119628  5720 ?        Ss   10:22   0:03 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    10:22   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    10:22   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   10:22   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    10:22   0:02 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    10:22   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    10:22   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    10:22   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    10:22   0:00 [kdevtmpfs]
+root        12  0.0  0.0      0     0 ?        S<   10:22   0:00 [netns]
+root        13  0.0  0.0      0     0 ?        S<   10:22   0:00 [perf]
+root        14  0.0  0.0      0     0 ?        S    10:22   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   10:22   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        SN   10:22   0:00 [ksmd]
+root        17  0.0  0.0      0     0 ?        SN   10:22   0:00 [khugepaged]
+root        18  0.0  0.0      0     0 ?        S<   10:22   0:00 [crypto]
+root        19  0.0  0.0      0     0 ?        S<   10:22   0:00 [kintegrityd]
+root        20  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        21  0.0  0.0      0     0 ?        S<   10:22   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S<   10:22   0:00 [ata_sff]
+root        23  0.0  0.0      0     0 ?        S<   10:22   0:00 [md]
+root        24  0.0  0.0      0     0 ?        S<   10:22   0:00 [devfreq_wq]
+root        28  0.0  0.0      0     0 ?        S    10:22   0:00 [kswapd0]
+root        29  0.0  0.0      0     0 ?        S<   10:22   0:00 [vmstat]
+root        30  0.0  0.0      0     0 ?        S    10:22   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S    10:22   0:00 [ecryptfs-kthrea]
+root        47  0.0  0.0      0     0 ?        S<   10:22   0:00 [kthrotld]
+root        48  0.0  0.0      0     0 ?        S<   10:22   0:00 [acpi_thermal_pm]
+root        49  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        50  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        51  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        52  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        53  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        54  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        55  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        56  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        57  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        58  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        59  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        60  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        61  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        62  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        63  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        64  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        65  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        66  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        67  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        68  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        69  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        70  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        71  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        72  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root        73  0.0  0.0      0     0 ?        S    10:22   0:00 [scsi_eh_0]
+root        74  0.0  0.0      0     0 ?        S<   10:22   0:00 [scsi_tmf_0]
+root        75  0.0  0.0      0     0 ?        S    10:22   0:00 [scsi_eh_1]
+root        76  0.0  0.0      0     0 ?        S<   10:22   0:00 [scsi_tmf_1]
+root        82  0.0  0.0      0     0 ?        S<   10:22   0:00 [ipv6_addrconf]
+root        95  0.0  0.0      0     0 ?        S<   10:22   0:00 [deferwq]
+root        96  0.0  0.0      0     0 ?        S<   10:22   0:00 [charger_manager]
+root        97  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root       144  0.0  0.0      0     0 ?        S<   10:22   0:00 [kpsmoused]
+root       147  0.0  0.0      0     0 ?        S<   10:22   0:00 [kworker/0:1H]
+root       148  0.0  0.0      0     0 ?        S    10:22   0:00 [scsi_eh_2]
+root       149  0.0  0.0      0     0 ?        S<   10:22   0:00 [scsi_tmf_2]
+root       150  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root       231  0.0  0.0      0     0 ?        S<   10:22   0:00 [bioset]
+root       265  0.0  0.0      0     0 ?        S    10:22   0:00 [jbd2/sda1-8]
+root       266  0.0  0.0      0     0 ?        S<   10:22   0:00 [ext4-rsv-conver]
+root       308  0.0  0.0  32244  3600 ?        Ss   10:22   0:00 /lib/systemd/systemd-journald
+root       321  0.0  0.0      0     0 ?        S    10:22   0:00 [kauditd]
+root       338  0.0  0.0  94772  1480 ?        Ss   10:22   0:00 /sbin/lvmetad -f
+root       353  0.0  0.1  45452  4608 ?        Ss   10:22   0:00 /lib/systemd/systemd-udevd
+root       517  0.0  0.0      0     0 ?        S<   10:22   0:00 [iprt-VBoxWQueue]
+root       627  0.0  0.0      0     0 ?        S<   10:22   0:00 [ttm_swap]
+root       725  0.0  0.0  29008  2968 ?        Ss   10:22   0:00 /usr/sbin/cron -f
+root       727  0.0  0.2 291280  8340 ?        Ssl  10:22   0:00 /usr/lib/accountsservice/accounts-daemon
+root       734  0.0  0.0  29880  1664 ?        Ss   10:22   0:00 /sbin/cgmanager -m name=systemd
+root       744  0.0  0.0  28624  3156 ?        Ss   10:22   0:00 /lib/systemd/systemd-logind
+root       757  0.0  0.0   4400  1328 ?        Ss   10:22   0:00 /usr/sbin/acpid
+syslog     760  0.0  0.0 256396  3400 ?        Ssl  10:22   0:00 /usr/sbin/rsyslogd -n
+message+   774  0.0  0.1  44064  4556 ?        Ss   10:22   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       804  0.0  0.4 381704 16564 ?        Ssl  10:22   0:00 /usr/sbin/NetworkManager --no-daemon
+root       807  0.0  0.2 337324  8680 ?        Ssl  10:22   0:00 /usr/sbin/ModemManager
+avahi      810  0.0  0.0  44788  3124 ?        Ss   10:22   0:00 avahi-daemon: running [samba.local]
+avahi      846  0.0  0.0  44788   344 ?        S    10:23   0:00 avahi-daemon: chroot helper
+root       888  0.0  0.2 294448 10316 ?        Rsl  10:23   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       946  0.0  0.0 256748  3348 ?        Sl   10:23   0:01 /usr/sbin/VBoxService
+root       954  0.0  0.1 594928  6664 ?        Ssl  10:23   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      1049  0.0  0.1  65520  5672 ?        Ss   10:23   0:00 /usr/sbin/sshd -D
+postgres  1079  0.0  0.5 294660 24120 ?        S    10:23   0:00 /usr/lib/postgresql/9.5/bin/postgres -D /var/lib/postgresql/9.5/main -c config_file=/etc/postgresql/9.5/main/postgresql.conf
+root      1092  0.0  0.0  16120  3696 ?        S    10:23   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-9b016959-6891-3fa3-9c00-ebe5572588db-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+nobody    1104  0.0  0.1  52868  4236 ?        S    10:23   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root      1109  0.0  0.0 125100  1452 ?        Ss   10:23   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1110  0.0  0.0 125424  3276 ?        S    10:23   0:00 nginx: worker process
+ntp       1386  0.0  0.1 112096  5316 ?        Ss   10:23   0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 108:114
+root      1465  0.0  0.0  15940  1800 tty1     Ss+  10:23   0:00 /sbin/agetty --noclear tty1 linux
+root      1467  0.0  0.2 141348  8440 ?        Ss   10:23   0:00 /usr/sbin/mdm --nodaemon
+root      1655  0.0  0.2 193732  9056 ?        S    10:23   0:00 /usr/sbin/mdm --nodaemon
+root      1663  3.5  2.4 359260 100756 tty7    Ss+  10:23   3:27 /usr/lib/xorg/Xorg :0 -audit 0 -auth /var/lib/mdm/:0.Xauth -nolisten tcp vt7
+root      1674  0.0  0.1  71568  4972 ?        Ss   10:23   0:00 /usr/sbin/apache2 -k start
+postgres  1780  0.0  0.0 294660  3928 ?        Ss   10:23   0:00 postgres: checkpointer process   
+postgres  1781  0.0  0.1 294660  5556 ?        Ss   10:23   0:00 postgres: writer process   
+postgres  1782  0.0  0.0 294660  3928 ?        Ss   10:23   0:00 postgres: wal writer process   
+postgres  1783  0.0  0.1 294956  4948 ?        Ss   10:23   0:00 postgres: autovacuum launcher process   
+postgres  1784  0.0  0.0 149644  3172 ?        Ss   10:23   0:00 postgres: stats collector process   
+mdm       1833  0.0  0.0  43732  2464 ?        S    10:23   0:00 dbus-launch --autolaunch=5ab3c275b7304ed3b8aeef9ffcc37eb4 --binary-syntax --close-stderr
+mdm       1844  0.0  0.0  42768  2532 ?        Ss   10:23   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+samba-p+  1896  0.0  0.1  45248  4716 ?        Ss   10:23   0:00 /lib/systemd/systemd --user
+samba-p+  1899  0.0  0.0  97896  2132 ?        S    10:23   0:00 (sd-pam)
+samba-p+  1904  0.0  0.1 352684  7620 ?        Sl   10:23   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+samba-p+  1915  0.0  0.5 424392 22972 ?        Ssl  10:23   0:00 cinnamon-session --session cinnamon
+samba-p+  1992  0.0  0.0  49516   320 ?        S    10:23   0:00 /usr/bin/VBoxClient --clipboard
+samba-p+  1993  0.0  0.1 117776  4248 ?        Sl   10:23   0:00 /usr/bin/VBoxClient --clipboard
+samba-p+  2002  0.0  0.0  49516   320 ?        S    10:23   0:00 /usr/bin/VBoxClient --display
+samba-p+  2003  0.0  0.0  49652  3384 ?        S    10:23   0:00 /usr/bin/VBoxClient --display
+samba-p+  2007  0.0  0.0  49516   320 ?        S    10:23   0:00 /usr/bin/VBoxClient --seamless
+samba-p+  2008  0.0  0.0 115700  2072 ?        Sl   10:23   0:00 /usr/bin/VBoxClient --seamless
+samba-p+  2011  0.0  0.0  49516   320 ?        S    10:23   0:00 /usr/bin/VBoxClient --draganddrop
+samba-p+  2012  0.1  0.0 116216  2076 ?        Sl   10:23   0:09 /usr/bin/VBoxClient --draganddrop
+samba-p+  2024  0.0  0.0  11140   316 ?        Ss   10:23   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch cinnamon-session-cinnamon
+samba-p+  2027  0.0  0.0  43736  2408 ?        S    10:23   0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch cinnamon-session-cinnamon
+samba-p+  2028  0.0  0.0  43360  3732 ?        Ss   10:23   0:00 /usr/bin/dbus-daemon --fork --print-pid 6 --print-address 9 --session
+samba-p+  2040  0.0  0.1 274524  6332 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfsd
+samba-p+  2045  0.0  0.2 419960  9272 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+samba-p+  2055  0.0  0.2 353836  8120 ?        Sl   10:23   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+samba-p+  2060  0.0  0.0  42900  4004 ?        S    10:23   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+samba-p+  2062  0.0  0.1 206876  6308 ?        Sl   10:23   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+samba-p+  2067  0.0  1.1 1137548 47236 ?       Sl   10:23   0:01 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/cinnamon-settings-daemon
+samba-p+  2089  0.0  0.2 435032 11716 ?        S<l  10:23   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     2090  0.0  0.0 183544  3156 ?        SNsl 10:23   0:00 /usr/lib/rtkit/rtkit-daemon
+root      2114  0.0  0.2 347140  9840 ?        Ssl  10:23   0:00 /usr/lib/upower/upowerd
+samba-p+  2324  0.0  0.1 178664  4700 ?        Sl   10:23   0:00 /usr/lib/dconf/dconf-service
+samba-p+  2328  0.0  0.2 296380  9820 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      2331  0.0  0.2 383012 10164 ?        Ssl  10:23   0:00 /usr/lib/udisks2/udisksd --no-debug
+samba-p+  2340  0.0  0.2 403604  9148 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+samba-p+  2346  0.0  0.1 259524  4484 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+samba-p+  2351  0.0  0.1 271720  5252 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+samba-p+  2356  0.0  0.1 257536  4360 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+samba-p+  2360  0.0  0.7 187220 30320 ?        S    10:23   0:00 /usr/bin/python3 /usr/bin/cinnamon-launcher
+colord    2361  0.0  0.3 313512 12964 ?        Ssl  10:23   0:00 /usr/lib/colord/colord
+samba-p+  2367  0.0  0.3 501644 13776 ?        Sl   10:23   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+samba-p+  2379 28.6  5.9 1375592 239996 ?      Rl   10:23  27:28 cinnamon --replace
+samba-p+  2385  0.0  0.5 330592 20336 ?        Sl   10:23   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+samba-p+  2391  0.0  1.5 828744 64652 ?        Sl   10:23   0:04 nemo -n
+samba-p+  2392  0.0  0.8 531292 34224 ?        Sl   10:23   0:00 nm-applet
+samba-p+  2393  0.0  0.7 419908 31408 ?        Sl   10:23   0:00 /usr/bin/python3 /usr/bin/cinnamon-killer-daemon
+samba-p+  2423  0.0  0.1 185980  5608 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfsd-metadata
+samba-p+  2428  0.0  0.2 363668  8656 ?        Sl   10:23   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
+samba-p+  2437  0.0  1.1 662392 48092 ?        Sl   10:23   0:01 cinnamon-screensaver
+samba-p+  2491  0.0  0.9 488912 38164 ?        Sl   10:24   0:03 /usr/lib/gnome-terminal/gnome-terminal-server
+samba-p+  2496  0.0  0.2  30064 10420 ?        S    10:24   0:00 /usr/bin/python3 /usr/bin/mintupdate-launcher
+samba-p+  2497  0.0  0.1  22664  5448 pts/0    Ss   10:24   0:00 bash
+samba-p+  2500  0.0  0.0   4508   760 ?        S    10:24   0:00 sh -c /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+samba-p+  2501  0.0  1.3 711520 56164 ?        Sl   10:24   0:00 /usr/bin/python3 /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+samba-p+  2539  0.0  0.7 235980 30380 ?        Sl   10:24   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+samba-p+  2574  0.0  1.1 297148 45264 pts/0    Sl+  10:24   0:02 /usr/bin/python /usr/bin/ipython notebook
+samba-p+  2602  0.0  0.2 399908 10940 ?        Sl   10:24   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
+samba-p+  2608  1.3  3.7 907936 153460 ?       SLl  10:24   1:14 /opt/google/chrome/chrome http://localhost:8888/tree
+samba-p+  2614  0.0  0.0   7448   672 ?        S    10:24   0:00 cat
+samba-p+  2615  0.0  0.0   7448   772 ?        S    10:24   0:00 cat
+samba-p+  2618  0.0  1.2 370356 48704 ?        S    10:24   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=6c49b333-1549-4947-a9f0-86c9b84c5f3e,
+samba-p+  2619  0.0  0.1  26992  4848 ?        S    10:24   0:00 /opt/google/chrome/nacl_helper
+samba-p+  2622  0.0  0.2 370356 11704 ?        S    10:24   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=6c49b333-1549-4947-a9f0-86c9b84c5f3e,
+samba-p+  2625  0.0  0.1  61168  5332 ?        S    10:24   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+samba-p+  2674  2.5  3.4 839140 140788 ?       Sl   10:24   2:28 /opt/google/chrome/chrome --type=renderer --enable-features=AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*ExpectCTReporting<ExpectCTReporting,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,ParseHTMLOnMainThread<ParseHTMLOnMainThread,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,PreconnectMore<PreconnectMore,PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/DataReductionProxyUseQuic/Enabled10_NoControl/DisallowFetchForDocWrittenScriptsInMainFrame/Control_20161208_Launch/EnforceCTForProblematicRoots/disabled/ExpectCTReporting/ExpectCTReportingDisabled/ExtensionDeveloperModeWarning/Default/Html5ByDefault/Enabled2/*InstanceID/Enabled/*OmniboxBundledExperimentV1/ChromeDesktopPSuggestModerateExperimentStable/ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/PreconnectMore/Enabled/*QUIC/EnabledNoId/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/SSLPostQuantum/disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/*SecurityChip/Enabled/SecurityWarningIconUpdate/Enabled/SignInPasswordPromo/Enable3/*SiteIsolationExtensions/Control/StrictSecureCookies/Enabled/*SubresourceFilter/EnabledForPhishingSites/TranslateServerStudy/Default/TranslateUI2016Q2/DefaultTranslateUI2016Q2/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_48/*UMA-Uniformity-Trial-10-Percent/group_08/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_14/*UMA-Uniformity-Trial-50-Percent/group_01/WebBluetoothBlacklist/BlacklistUpdate1/WebFontsInterventionV2/Default/ --primordial-pipe-token=91DAD9E595ABAFE2B862E6A8C56F67B1 --lang=en-GB --enable-crash-reporter=6c49b333-1549-4947-a9f0-86c9b84c5f3e, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=false --enable-pinch --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --disable-webrtc-hw-encoding --disable-gpu-compositing --service-request-channel-token=91DAD9E595ABAFE2B862E
+samba-p+  2735  0.0  0.9 525204 37640 pts/0    Sl+  10:25   0:01 /usr/bin/python -c from IPython.kernel.zmq.kernelapp import main; main() -f /home/samba-python/.ipython/profile_default/security/kernel-c4586216-f5a0-4888-b083-8c8dcb9d431a.json --IPKernelApp.parent_appname='ipython-notebook' --profile-dir /home/samba-python/.ipython/profile_default --parent=1
+www-data  3184  0.0  0.1 360724  5792 ?        Sl   10:27   0:01 /usr/sbin/apache2 -k start
+www-data  3185  0.0  0.1 360724  5792 ?        Sl   10:27   0:01 /usr/sbin/apache2 -k start
+root      3267  0.0  0.2 274820  9784 ?        Ssl  10:27   0:00 /usr/sbin/cups-browsed
+samba-p+  3792  0.0  0.1  22692  5476 pts/1    Ss   11:14   0:00 bash
+samba-p+  3844  0.1  1.1 667620 48552 ?        Sl   11:16   0:04 xed /home/samba-python/Documents/batch25/log1.txt
+root      3950  0.0  0.0      0     0 ?        S    11:23   0:00 [kworker/0:2]
+samba-p+  4197  0.6  2.5 797816 105140 ?       Sl   11:37   0:08 /opt/google/chrome/chrome --type=renderer --enable-features=AutofillProfileCleanup<AutofillProfileCleanup,BlockSmallPluginContent<PluginPowerSaverTiny,*ExpectCTReporting<ExpectCTReporting,*OverrideYouTubeFlashEmbed<Override YouTube Flash emed,ParseHTMLOnMainThread<ParseHTMLOnMainThread,*PersistentHistograms<PersistentHistograms,*PointerEvent<PointerEvent,PreconnectMore<PreconnectMore,PreferHtmlOverPlugins<Html5ByDefault,SecurityChip<SecurityChip,SecurityWarningIconUpdate<SecurityWarningIconUpdate,SubresourceFilter<SubresourceFilter,*TranslateUI2016Q2<TranslateUI2016Q2 --disable-features=DocumentWriteEvaluator<DisallowFetchForDocWrittenScriptsInMainFrame,SSLPostQuantumExperiment<SSLPostQuantum --force-fieldtrials=*AppBannerTriggering/site-engagement-eager/*AutofillProfileCleanup/Enabled/CaptivePortalInterstitial/Enabled/*ChromeChannelStable/Enabled/*ChromeSuggestionsTuning/Default/*ClientSideDetectionModel/Model0/*DataReductionProxyUseQuic/Enabled10_NoControl/*DisallowFetchForDocWrittenScriptsInMainFrame/Control_20161208_Launch/EnforceCTForProblematicRoots/disabled/ExpectCTReporting/ExpectCTReportingDisabled/*ExtensionDeveloperModeWarning/Default/*Html5ByDefault/Enabled2/*InstanceID/Enabled/*OmniboxBundledExperimentV1/ChromeDesktopPSuggestModerateExperimentStable/*ParseHTMLOnMainThread/Default/PasswordBranding/SmartLockBrandingSavePromptOnly/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Enable/*PersistentHistograms/Default/PluginPowerSaverTiny/Enabled2/*PreconnectMore/Enabled/*QUIC/EnabledNoId/ReportCertificateErrors/ShowAndPossiblySend/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/SSLCommonNameMismatchHandling/Enabled/*SSLPostQuantum/disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/*SecurityChip/Enabled/SecurityWarningIconUpdate/Enabled/SignInPasswordPromo/Enable3/*SiteIsolationExtensions/Control/*StrictSecureCookies/Enabled/*SubresourceFilter/EnabledForPhishingSites/TranslateServerStudy/Default/TranslateUI2016Q2/DefaultTranslateUI2016Q2/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_48/*UMA-Uniformity-Trial-10-Percent/group_08/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_14/*UMA-Uniformity-Trial-50-Percent/group_01/WebBluetoothBlacklist/BlacklistUpdate1/*WebFontsInterventionV2/Default/ --primordial-pipe-token=14BB2580B8C55FA8B4AF6BDA2C457E36 --lang=en-GB --enable-crash-reporter=6c49b333-1549-4947-a9f0-86c9b84c5f3e, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=false --enable-pinch --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --disable-webrtc-hw-encoding --disable-gpu-compositing --service-request-channel-token=14BB2580B8C5
+samba-p+  4223  0.1  0.9 675032 37476 pts/0    Sl+  11:38   0:01 /usr/bin/python -c from IPython.kernel.zmq.kernelapp import main; main() -f /home/samba-python/.ipython/profile_default/security/kernel-88444215-e461-4d53-a7f2-d42c723615c2.json --IPKernelApp.parent_appname='ipython-notebook' --profile-dir /home/samba-python/.ipython/profile_default --parent=1
+root      4237  0.0  0.0      0     0 ?        S    11:38   0:00 [kworker/u2:2]
+root      4259  0.0  0.1 124480  7912 ?        Ss   11:41   0:00 sshd: samba-python [priv]
+root      4265  0.0  0.0      0     0 ?        S    11:41   0:00 [kworker/0:0]
+samba-p+  4277  0.0  0.1 124480  4676 ?        S    11:41   0:00 sshd: samba-python@notty
+root      4337  0.0  0.0      0     0 ?        S    11:47   0:00 [kworker/u2:0]
+samba-p+  4392  2.2  1.4 882508 59492 ?        Ssl  11:55   0:05 /opt/sublime_text/sublime_text
+samba-p+  4403  0.5  0.4 119476 18540 ?        Sl   11:55   0:01 /opt/sublime_text/plugin_host 4392
+root      4421  0.0  0.0      0     0 ?        S    11:55   0:00 [kworker/u2:1]
+root      4466  0.0  0.0      0     0 ?        S    11:59   0:00 [kworker/0:1]
+samba-p+  4499  0.0  0.4 208548 16804 pts/1    Sl+  11:59   0:00 python pmk1.py
+root      4500  0.0  0.1 124476  7912 ?        Ss   11:59   0:00 sshd: samba-python [priv]
+samba-p+  4517  0.0  0.0 124476  3688 ?        S    11:59   0:00 sshd: samba-python@notty
+samba-p+  4518  0.0  0.0  37364  3316 ?        Rs   11:59   0:00 ps -aux
+
+2017-03-12 11:59:33,442->DEBUG->[chan 0] EOF received (0)
